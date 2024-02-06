@@ -16,7 +16,5 @@ for /d %%p in ("%windir%\Temp\*.*") do rmdir "%%p" /s /q
 echo Cleaning Prefetch folder...
 del /q /f /s "%windir%\Prefetch\*"
 
-::CODE CREATED BY Matthew Ahmed
-
 echo Cleanup complete.
 pause
